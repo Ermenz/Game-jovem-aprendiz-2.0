@@ -10,15 +10,14 @@
   <!-- POP-UP da história -->
   <div class="popup" id="popup">
     <input type="text" id="nomeJogador" placeholder="Digite seu nome" />
-
-    <!-- Seletor de setor (só aparece no fim da história) -->
+    
     <select id="setorSelect" style="display: none; margin-top: 10px;">
       <option value="">Selecione seu setor</option>
       <option value="TI">Tecnologia da Informação</option>
       <option value="RH">Recursos Humanos</option>
       <option value="Logística">Logística</option>
       <option value="Financeiro">Financeiro</option>
-      <option value="Financeiro">Marketing</option>
+      <option value="Marketing">Marketing</option>
     </select>
 
     <p id="storyText">Bem-vindo! Digite seu nome e clique em Avançar.</p>
@@ -51,6 +50,8 @@
     </div>
   </div>
 
+  <!-- Scripts -->
   <script src="/game_script.js"></script>
+  <script src="/story_script.js"></script> <!-- Novo script da introdução -->
 </body>
 </html>
